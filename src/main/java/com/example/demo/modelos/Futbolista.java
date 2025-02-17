@@ -3,6 +3,9 @@ package com.example.demo.modelos;
 import java.io.Serializable;
 import jakarta.persistence.*;
 import java.util.Date;
+import java.util.List;
+
+
 
 
 /**
@@ -30,6 +33,7 @@ public class Futbolista implements Serializable {
 	private int id;
 
 	private int edad;
+	
 
 	@Temporal(TemporalType.DATE)
 	@Column(name="fecha_nac")
